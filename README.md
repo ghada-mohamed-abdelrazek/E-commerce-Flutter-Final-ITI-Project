@@ -1,16 +1,29 @@
-# iti_final_project
+# 🛒 Flutter E-Commerce App (Two APIs)
 
-A new Flutter project.
+A modern Flutter e-commerce application built with clean UI and a smooth shopping flow (Browse → Details → Cart → Checkout).  
+The app integrates with **two different APIs** (e.g., Auth API + Products API) to fetch data and handle authentication.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Login / Register 
+- ✅ Browse products 
+- ✅ Product details
+- ✅ Search & categories *(if available)*
+- ✅ Add to cart / remove from cart
+- ✅ State management (Bloc/Cubit )
+- ✅ Responsive UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Tech Stack
+
+- **Flutter / Dart**
+- **State Management:** Bloc/Cubit *(or your choice)*
+- **Networking:** Dio / http
+- **Local Storage:** SharedPreferences *(if used)*
+- **Architecture:** MVC / Clean Architecture *(update this)*
+
+---
+  [<img src="assets/images/logo_app.png" width="220" />](https://drive.google.com/file/d/1J1uj_z9xJtRQ2XCnO50ES4v1WqBZDKPD/view?usp=sharing)
