@@ -5,7 +5,7 @@ The app integrates with **two different APIs** (e.g., Auth API + Products API) t
 
 ---
 
-## ✨ Features
+##  Features
 
 - ✅ Login / Register 
 - ✅ Browse products 
@@ -17,14 +17,12 @@ The app integrates with **two different APIs** (e.g., Auth API + Products API) t
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 - **Flutter / Dart**
-- **State Management:** Bloc/Cubit *(or your choice)*
-- **Networking:** Dio / http
-- **Local Storage:** SharedPreferences *(if used)*
-- **Architecture:** MVC / Clean Architecture *(update this)*
+- **State Management:** Bloc/Cubit 
+- **Networking:** Dio 
 
 ---
-## 🎥 Demo Video
+##  Demo Video
   [<img src="assets/images/logo_app.png" width="220" />](https://drive.google.com/file/d/1J1uj_z9xJtRQ2XCnO50ES4v1WqBZDKPD/view?usp=sharing)
