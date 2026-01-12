@@ -1,7 +1,6 @@
 # 🛒 Flutter E-Commerce App 
 
 A modern Flutter e-commerce application built with clean UI and a smooth shopping flow (Browse → Details → Cart → Checkout).  
-The app integrates with **two different APIs** (e.g., Auth API + Products API) to fetch data and handle authentication.
 
 ---
 
