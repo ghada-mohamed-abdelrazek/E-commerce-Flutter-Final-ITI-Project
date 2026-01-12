@@ -26,4 +26,5 @@ The app integrates with **two different APIs** (e.g., Auth API + Products API) t
 - **Architecture:** MVC / Clean Architecture *(update this)*
 
 ---
+## 🎥 Demo Video
   [<img src="assets/images/logo_app.png" width="220" />](https://drive.google.com/file/d/1J1uj_z9xJtRQ2XCnO50ES4v1WqBZDKPD/view?usp=sharing)
