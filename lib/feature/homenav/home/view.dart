@@ -27,7 +27,12 @@ class HomeSrceen extends StatefulWidget {
   @override
   State<HomeSrceen> createState() => _HomeSrceenState();
 }
-
+final List<Color> carouselColors = [
+  AppColor.primaryColor,
+  Colors.grey.shade700,
+  Colors.green.shade900,
+  Colors.red.shade900,
+];
 class _HomeSrceenState extends State<HomeSrceen> {
   int currentIndex = 0;
   final _totalDots = 4;
@@ -132,11 +137,11 @@ class _HomeSrceenState extends State<HomeSrceen> {
               options: CarouselOptions(
                   height: 180,
                 autoPlay: true,
-                autoPlayInterval: Duration(seconds: 3),
+                autoPlayInterval: Duration(seconds: 4),
                 autoPlayAnimationDuration: Duration(microseconds:800 ),
                 enlargeCenterPage: true,
                 aspectRatio: 16/9,
-                // viewportFraction: 0.8,
+                viewportFraction: 0.9,
                 onPageChanged: (index,reason){
                     setState(() {
                       currentIndex=index;
@@ -157,7 +162,7 @@ class _HomeSrceenState extends State<HomeSrceen> {
                           horizontal: 8
                       ),
                       decoration: BoxDecoration(
-                          color: AppColor.primaryColor,
+                          color: carouselColors[i - 1],
                           borderRadius: BorderRadius.circular(12)
                       ),
                       child: Row(
