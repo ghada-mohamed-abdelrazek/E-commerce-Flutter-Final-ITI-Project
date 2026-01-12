@@ -6,13 +6,13 @@ A modern Flutter e-commerce application built with clean UI and a smooth shoppin
 
 ##  Features
 
-- ✅ Login / Register 
-- ✅ Browse products 
-- ✅ Product details
-- ✅ Search & categories *(if available)*
-- ✅ Add to cart / remove from cart
-- ✅ State management (Bloc/Cubit )
-- ✅ Responsive UI
+-  Login / Register 
+-  Browse products 
+-  Product details
+-  Search & categories *(if available)*
+-  Add to cart / remove from cart
+-  State management (Bloc/Cubit )
+-  Responsive UI
 
 ---
 
